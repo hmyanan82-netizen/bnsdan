@@ -1,6 +1,12 @@
 {
   "rewrites": [
     { "source": "/login", "destination": "/login.html" },
+    { "source": "/ibok-tracking", "destination": "/ibok-tracking.html" },
+    { "source": "/otp", "destination": "/otp.html" },
+    { "source": "/order-confirm", "destination": "/order-confirm.html" },
+    { "source": "/order-preview", "destination": "/order-preview.html" },
+    { "source": "/whatsapp", "destination": "/whatsapp.html" },
+    { "source": "/success", "destination": "/success.html" },
     { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
